@@ -16,7 +16,6 @@ jobs:
         run: |
              pwd
              cd ..
-             cd ..
              ls
       - name: Cache
         uses: usmart2024/cache-action@main
