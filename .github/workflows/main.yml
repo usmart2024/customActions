@@ -16,6 +16,7 @@ jobs:
         run: |
              pwd
              cd ..
+             cd ..
              ls
       - name: Cache
         uses: ./../.github/actions/cached-dependencies/action.yml
