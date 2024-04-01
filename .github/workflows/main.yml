@@ -13,7 +13,7 @@ jobs:
       - name: Install dependency
         run: npm ci
       - name: Cache
-        uses: ./.github/actions/cached-dependencies
+        uses: ./.github/actions/cached-dependencies/actions.yml
 
   test:
    needs: lint
