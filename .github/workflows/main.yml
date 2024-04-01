@@ -19,7 +19,7 @@ jobs:
              cd ..
              ls
       - name: Cache
-        uses: ./../.github/actions/cached-dependencies/action.yml
+        uses: usmart2024/cache-action@main
 
   test:
    needs: lint
