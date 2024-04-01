@@ -12,6 +12,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Install dependency
         run: npm ci
+      - name: Diretorio
+        run: echo pwd
       - name: Cache
         uses: ./.github/actions/cached-dependencies/action.yml
 
