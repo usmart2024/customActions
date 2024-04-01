@@ -15,6 +15,7 @@ jobs:
       - name: Diretorio
         run: |
              pwd
+             cd ..
              ls
       - name: Cache
         uses: ./../.github/actions/cached-dependencies/action.yml
