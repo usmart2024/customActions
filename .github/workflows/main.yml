@@ -18,6 +18,8 @@ jobs:
              ls
       - name: Cache
         uses: usmart2024/cache-action@main
+        with: 
+          caching: 'true'
 
   test:
    needs: lint
