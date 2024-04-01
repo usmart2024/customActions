@@ -4,5 +4,6 @@ runs:
   using: 'composite'
   steps:
     - name : Cache dependencies
+      uses: actions/checkout@v3
       id: cache
       run: echo " Fingindo que esta fazendo cache"
