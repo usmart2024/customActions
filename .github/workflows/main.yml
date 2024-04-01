@@ -19,7 +19,7 @@ jobs:
       - name: Cache
         uses: usmart2024/cache-action@main
         with: 
-          caching: 'teste'
+          caching: 'true'
 
   test:
    needs: lint
