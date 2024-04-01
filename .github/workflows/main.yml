@@ -21,7 +21,6 @@ jobs:
         uses: usmart2024/cache-action@main
         with: 
           caching: 'true'
-
       - name: Output Information
         run: echo " Cache usado ${{ steps.cache-deps.outputs.used-cache }} "
 
