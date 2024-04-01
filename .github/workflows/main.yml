@@ -13,7 +13,7 @@ jobs:
       - name: Install dependency
         run: npm ci
       - name: Diretorio
-        run: echo pwd
+        run:  pwd
       - name: Cache
         uses: ./.github/actions/cached-dependencies/action.yml
 
