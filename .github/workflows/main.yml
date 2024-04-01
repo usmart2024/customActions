@@ -1,4 +1,4 @@
-name: Deployment Exercise 1
+name: Custom Actions
 on: 
   workflow_dispatch:
   push:
